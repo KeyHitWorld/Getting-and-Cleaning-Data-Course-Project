@@ -66,7 +66,7 @@ SecondMeans<-CompleteData %>% SecondMeans<-group_by(subject, activity) %>% summa
 
 #Write to "Second_tidy_data.txt"
 
-write.table(SecondMeans, "Second_tidy_data.txt")
+write.table(SecondMeans, "Second_tidy_data.txt",row.name=FALSE )
 
 #All steps are done
 
