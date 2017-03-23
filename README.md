@@ -10,10 +10,14 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-This repo has:
+#Repo content
+
 1.Source analysis code(run_analysis.R)
+
 2.README.md
+
 3.CodeBook.md
+
 4.Tidy data required
 
 # The steps of the project
