@@ -41,7 +41,7 @@ columnsyouNeed <- grepl("subject|activity|mean|std", colnames(CompleteData))
 CompleteData <- CompleteData[, columnsyouNeed]
 
 #Step 3 Uses descriptive activity names to name the activities in the data set
-CompleteData$activity <- factor(CompleteData$activity, levels = activities[, 1], labels = activities[, 2])
+CompleteData$activity <- factor(CompleteData$activity, levels = Activities[, 1], labels = Activities[, 2])
 
 #Step 4 Appropriately labels the data set with descriptive variable names.
 #Get col names
