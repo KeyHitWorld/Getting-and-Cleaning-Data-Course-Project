@@ -33,4 +33,4 @@ This repo has:
 
 8.Write to "Second_tidy_data.txt"
 
-All steps are finished by using Rstudio (R version 3.3.2) On MacOS X systerm
+All steps are finished by using Rstudio (R version 3.3.2) On MacOS Sierra systerm
