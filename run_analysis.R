@@ -2,7 +2,7 @@
 Url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 File <- "ProjectDataset.zip"
 
-if (!file.exists(zipFile)) {
+if (!file.exists(File)) {
   download.file(Url, File, mode = "wb")
 }
 
