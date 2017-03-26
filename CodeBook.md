@@ -4,8 +4,6 @@
 
 2.Read raw data into R by read.table() function.
 
-For example: X_test<-read.table("X_test.txt")
-
 3.Merges the training and the test sets to create one data set.
 
 Using cbind() to merge train data to a complete one,
@@ -29,7 +27,7 @@ independent tidy data set with the average of each variable for each activity an
 Using Group_by() to group second dataset by "subject" and "activity", summarise_each() can get the 
 average of each variable.%>%m expression makes it more handy.
 
-8.Write the second dataset into text file.("Second_tidy_data.txt")
+8.Write the second dataset into text file.("Sec_tidy_data.txt")
 
 #More Information
 
