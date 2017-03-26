@@ -73,7 +73,7 @@ colnames(CompleteData)<-ColNames
 #independent tidy data set with the average of each variable for each activity and each subject.
 
 Sec_Means<-CompleteData %>% group_by(subject, activity) %>% summarise_each(funs(mean))
- names(Sec_Means)
+
 #Write to "Second_tidy_data.txt"
 
 write.table(Sec_Means, "Sec_tidy_data.txt",row.name=FALSE,quote=FALSE )
